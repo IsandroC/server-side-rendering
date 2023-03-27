@@ -1,0 +1,73 @@
+:root {
+    --text-color-white: #ffffff;
+    --primary-blue: #090940;
+    --primary-yellow: #feb51e;
+    --secondary-blue: #31439c;
+    --secondary-orange: #fe6f07;
+    --gray-shade-1: #625c51;
+    --gray-shade-4: #f9f8f8;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-size: 20px;
+    font-family: rigid-square, sans-serif;
+}
+
+/* nav styling */
+
+nav {
+    padding: 1rem 0.5rem 1rem 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0rem -0.5rem;
+}
+  
+  ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+
+li > a {
+    display: inline-block;
+    padding: 0.75rem 0.75rem;
+    margin: 1.25rem 1.25rem;
+}
+
+.header__navbar-item .account-icon {
+    padding: 0.5rem 0.5rem;
+    margin: 1rem 1rem;
+}
+  
+  .header__navbar-item a {
+    color: var(--primary-blue);
+}
+  
+  header > p {
+    background-color: var(--secondary-blue);
+    color: var(--text-color-white);
+    margin: 0rem -0.5rem;
+    padding-left: 7rem;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+}
+
+.methods {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.method-container {
+    padding: 0 4rem;
+}
+
+.method-img {
+    width: 100%;
+    max-width: 28.217rem;
+    max-height: 17.3725rem;
+}
